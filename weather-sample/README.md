@@ -1,6 +1,6 @@
 # WeatherSample
 
-Dieses Projekt ist Bestandteil der Artikel-Serie `Angular 2 Pro-Tipps` und gehört zum zweiten Artikel `Angular 2 Pro-Tipps: HTTP-Client`.
+Dieses Projekt ist Bestandteil der Artikel-Serie `Angular 2 Pro-Tipps` und gehört zum zweiten Artikel `Angular 2 Pro-Tipps: #2 - HTTP-Client`.
 
 
 ## Angular CLI Infos
