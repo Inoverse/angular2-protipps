@@ -1,0 +1,26 @@
+<h1>
+  {{title}}
+</h1>
+<div>
+  <input type="text" [(ngModel)]="city" (blur)="onBlur()" placeholder="Enter City Here" />
+</div>
+<div>
+  <div>
+    <h4>Location</h4>
+    <p>{{weatherData?.name}}</p>
+  </div>
+  <div>
+    <h4>Current Weather</h4>
+    <p>{{weatherData?.weather[0].main}}</p>
+  </div>
+  <div>
+    <h4>Temperature</h4>
+    <p>Temperature: {{weatherData?.main.temp}}° <br />
+    Temperature Max: {{weatherData?.main.temp_max}}° <br />
+    Temperature Min: {{weatherData?.main.temp_min}}°</p>
+  </div>
+  <div>
+    <h4>Humidity</h4>
+    <p>{{weatherData?.main.humidity}}%</p>
+  </div>
+</div>
